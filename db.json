@@ -1,30 +1,28 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Product 1"
-    },
-    {
       "id": 2,
-      "title": "Product 2"
+      "productName": "TV",
+      "productDescription": "Telivision1",
+      "productPrice": "10000",
+      "productRating": "5"
     },
     {
       "id": 3,
-      "title": "Product 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "productId": 1
+      "productName": "Fridge",
+      "productDescription": "Refrigirator",
+      "productPrice": "20000",
+      "productRating": "5"
     },
     {
-      "id": 2,
-      "body": "some comment",
-      "productId": 1
+      "id": 4,
+      "productName": "Laptop",
+      "productDescription": "Dell Laptop",
+      "productPrice": "40000",
+      "productRating": "4"
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
