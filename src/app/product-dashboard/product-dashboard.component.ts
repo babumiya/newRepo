@@ -13,9 +13,10 @@ export class ProductDashboardComponent implements OnInit {
   ngOnInit(): void {
     // https://my-json-server.typicode.com/<your-username>/<your-repo>
     // https://my-json-server.typicode.com/babumiya/MyJson/db
-    this.api.getAllData("https://my-json-server.typicode.com/babumiya/MyJson/db").subscribe(res=>{
+    // https://my-json-server.typicode.com/babumiya/newRepo/db
+    this.api.getAllData("https://my-json-server.typicode.com/babumiya/newRepo/db").subscribe(res=>{
       console.log(res);
-      this.allProducts = res;
+      this.allProducts = res.products;
     })
   }
 
