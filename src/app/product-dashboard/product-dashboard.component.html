@@ -1,11 +1,35 @@
 <nav class="navbar navbar-light bg-primary">
   <div class="container">
-    <h1>
-      Products
-    </h1>
+    <h1>Products</h1>
     <div class="d-flex">
       <button class="btn btn-success">Add Product</button>
     </div>
   </div>
 </nav>
-
+<div class="container">
+  <table class="table mt-3">
+    <thead>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Description</th>
+        <th>Product Rating</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let product of allProducts">
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.description}}</td>
+        <td>{{product.rating}}</td>
+        <td>
+          <div>
+            <button class="btn btn-info">Edit</button>
+            <button class="btn btn-danger mx-3">Delete</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

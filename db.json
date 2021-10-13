@@ -1,10 +1,17 @@
 {
   "products": [
     {
-      "id": 2,
+      "id": 1,
       "productName": "TV",
       "productDescription": "Telivision1",
       "productPrice": "10000",
+      "productRating": "5"
+    },
+    {
+      "id": 2,
+      "productName": "Laptop",
+      "productDescription": "Lenovo Laptop",
+      "productPrice": "30000",
       "productRating": "5"
     },
     {
